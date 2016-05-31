@@ -1,0 +1,91 @@
+circle {
+  fill: #ddd;
+  stroke: #999;
+}
+
+th {
+  background-color: #CCD7DD;
+  text-align: left;
+  padding: 5px;
+  font-family: calibri;
+}
+
+td {
+    text-align: right;
+    font-family: calibri;
+    padding: 5px;
+}
+
+table {
+    margin-right: 0.5em;
+    white-space: nowrap;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 40px;
+    border-collapse: collapse;
+    display: block;
+    height: 1000px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0 auto;
+    text-align: left;
+    table-layout: fixed;
+    width: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+text {
+  fill: black;
+  font-family: calibri;
+  font-size: 15px;
+}
+
+text.mouseIsOver {
+  font-weight: bold;
+}
+
+p {
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.node text {
+  pointer-events: none;
+}
+
+button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #E6E6E6;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    color: black;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: calibri;
+}
+
+button:hover {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+svg {
+  margin-left: 20px;
+  background-color: white;
+}
+
+line {
+  stroke: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
